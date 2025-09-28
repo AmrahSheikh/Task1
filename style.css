@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "goodfont";
+    src: url(./Goodwill_Y2011_M10_D11.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:"goodfont";  
+}
+
+
+#header{
+    color: white;
+    background-color: rgba(94, 0, 63, 0.942);
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.main{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.896);
+    padding: 20px;
+}
+
+.main div{
+    margin: 60px;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.main h2{
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.main p{
+    padding-bottom: 10px;
+    background-color: azure;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+#about{
+    background-color: rgb(201, 255, 223);
+}
+
+#education{
+    background-color: rgb(153, 255, 255);
+}
+
+#skills{
+    background-color: rgb(249, 206, 255);
+}
+
+#projects{
+    background-color: rgb(247, 203, 227);
+}
+
+#contact{
+    background-color: beige;
+}
+
+
+#footer{
+    color: white;
+    background-color: rgba(94, 0, 63, 0.942);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
