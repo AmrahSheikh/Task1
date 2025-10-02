@@ -1,1 +1,1 @@
-Simple Resume Webpage
+Simple Resume Website
